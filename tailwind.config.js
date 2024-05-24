@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const plugin = require('tailwindcss/plugin')
+
 export default {
   content: [
     "./index.html",
@@ -8,6 +11,16 @@ export default {
     extend: {
       zIndex: {
         '2': '2',
+      },
+      keyframes:{
+        floating:{
+          '0%': { transform: 'translate(0, 0px)' },
+          '50%': { transform: 'translate(0, 10px)' },
+          '100%': { transform: 'translate(0, -0px)' },          
+        }
+      },
+      animation:{
+        'floating-image':'floating 3s ease-in-out infinite'
       }
     },
     colors: {
@@ -23,6 +36,14 @@ export default {
       'sm': {'max': '639px'},
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ addUtilities }) {
+      addUtilities({
+        '.text-webkit-center': {
+          'text-align': '-webkit-center',
+        },
+      })
+    })
+  ],
 }
 
