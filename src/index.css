@@ -1,16 +1,4 @@
 @tailwind base;
 @tailwind components;
 
-/* .root,
-#root,
-#docs-root {
-    --color-text:#fff;
-    --primary-color: 201	58	27;
-    --secondary-color: #19376d;
-    --dark-color: #0b2447;
-    --color-bg: #04152d;
-
-    --font-roboto: "Roboto";
-} */
-
 @tailwind utilities;
