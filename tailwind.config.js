@@ -5,7 +5,8 @@ const plugin = require('tailwindcss/plugin')
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}"
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
@@ -29,6 +30,7 @@ export default {
       main:'#fff',
     },
     screens: {
+      'big':'767px',
       '2xl': {'max': '2560px'},
       'xl': {'max': '1279px'},
       'lg': {'max': '1023px'},
@@ -45,6 +47,9 @@ export default {
         '.bg-mygradient': {
           'background': 'linear-gradient(0deg, rgba(88, 47, 38, 0.9) 0%, rgba(201, 58, 27, 0.1) 100%)',
         },
+        '.bg-my_exp_grad':{
+          'background':"linear-gradient(90deg, #FF5E2B 0%, rgba(175,98,74,0) 100%);"
+        }
       })
     }),
     require('tailwindcss-multi'),

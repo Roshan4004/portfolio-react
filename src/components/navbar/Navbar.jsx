@@ -18,6 +18,7 @@ const Navbar = () => {
     <a className="2xl:text-4xl 2xl:font-bold 2xl:no-underline 2xl:text-main" href='/'>Portfolio</a>
     <div className={`2xl:flex ${resp_menu}`}>
       {!menuOpen ?(
+        
         <IconContext.Provider value={{ color: "white",size:"2.5em", className: "global-class-name" }}>
         <div className={`2xl:hidden ${resp_menu_button}`} onClick={()=>setMenuOpen(!menuOpen)}>
           <GiHamburgerMenu/>
@@ -33,7 +34,7 @@ const Navbar = () => {
 
       <ul className={`2xl:flex 2xl:gap-[47px] 2xl:list-none ${resp_menu_items} ${menuOpen ? 'md:flex  md:z-[2]' : 'md:hidden'}`} onClick={()=>setMenuOpen(false)}>
           <li><a className={menu_a_tags} href='#about'>About</a></li>
-          <li><a className={menu_a_tags} href='#experience'>Experience</a></li>
+          <li><a className={menu_a_tags} href='#experience'>Skills/Experience</a></li>
           <li><a className={menu_a_tags} href='#projects'>Projects</a></li>
           <li><a className={menu_a_tags} href='#contacts'>Contacts</a></li>
       </ul>

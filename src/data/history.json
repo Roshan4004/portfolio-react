@@ -12,7 +12,7 @@
       "organisation": "Dowell Research UK",
       "startDate": "August, 2022",
       "endDate": "April, 2023",
-      "experiences": ["Worked on Django in login website", "Created various APIs in DRF"],
+      "experiences": ["Worked on Django in login website", "Created various APIs in Django Rest Framework"],
       "imageSrc": "history/microsoft.png"
     }
   ]

@@ -9,7 +9,7 @@ const Intro = () => {
             <h1 className={`2xl:multi-[text-5xl;font-bold;mb-[33px]] md:mt-[10px]`}>Hi, I'm Roshan</h1>
             <p className={`2xl:text-3xl 2xl:mb-[32px]`}>I am a backend developer with 2 years in experience of Python and Django. Please reach out to
                  know me more!</p>
-            <a className={`2xl:multi-[no-underline;bg-[#BF7A53];rounded-full;text-3xl;text-main;font-bold;py-[17px];px-[26px];shadow-md]`} href='mailto:gautamroshan4004@gmail.com'>Contact Me</a>
+            <a className={`2xl:multi-[no-underline;rounded-full;text-3xl;text-main;font-bold;py-[17px];px-[26px];shadow-md] 2xl:bg-[#BF7A53]`} href='mailto:gautamroshan4004@gmail.com'>Contact Me</a>
         </div>
 
         <img className={`2xl:multi-[w-[30vh];z-[1];animate-floating-image]  md:w-[20vh]`} src={getImageUrl("intro/myimg.png")} alt="myimage"></img>
