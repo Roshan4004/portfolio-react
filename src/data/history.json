@@ -1,0 +1,18 @@
+[
+    {
+      "role": "Backend Group Lead",
+      "organisation": "Dowell Research UK",
+      "startDate": "April, 2023",
+      "endDate": "April, 2024",
+      "experiences": ["Worked on Django Rest Framework", "Managed a team of frontend and backend developers"],
+      "imageSrc": "history/google.png"
+    },
+    {
+      "role": "Backend Developer",
+      "organisation": "Dowell Research UK",
+      "startDate": "August, 2022",
+      "endDate": "April, 2023",
+      "experiences": ["Worked on Django in login website", "Created various APIs in DRF"],
+      "imageSrc": "history/microsoft.png"
+    }
+  ]
