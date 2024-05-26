@@ -21,12 +21,12 @@ export default {
       },
       animation:{
         'floating-image':'floating 3s ease-in-out infinite'
-      }
+      },
     },
     colors: {
       primary: '#c93a1b',
       secondary: '#631d0d',
-      main:'#fff'
+      main:'#fff',
     },
     screens: {
       '2xl': {'max': '2560px'},
@@ -41,6 +41,9 @@ export default {
       addUtilities({
         '.text-webkit-center': {
           'text-align': '-webkit-center',
+        },
+        '.bg-mygradient': {
+          'background': 'linear-gradient(0deg, rgba(88, 47, 38, 0.9) 0%, rgba(201, 58, 27, 0.1) 100%)',
         },
       })
     })

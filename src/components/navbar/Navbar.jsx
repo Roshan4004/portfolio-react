@@ -10,7 +10,7 @@ const Navbar = () => {
   const resp_navbar="md:flex-col md:items-start"
   const resp_menu_button="md:block md:cursor-pointer"
   const resp_menu="md:absolute md:mr-1 md:flex-col md:items-end md:gap-[11px] md:z-2 md:right-0"
-  const resp_menu_items="md:flex-col md:items-center md:gap-[13px] md:rounded-[10px] md:bg-[#4A2820] md:bg-gradient-to-b from-[#4A2820] to-[#B05E4C] md:py-[24px] md:px-[33px] md:shadow-lg"
+  const resp_menu_items="md:flex-col md:items-center md:gap-[13px] md:rounded-[10px] md:bg-[#4A2820] md:bg-mygradient  md:py-[24px] md:px-[33px] md:shadow-lg"
 
   return (
     <>
@@ -31,7 +31,7 @@ const Navbar = () => {
         </IconContext.Provider>
       )}
 
-      <ul className={`2xl:flex 2xl:gap-[47px] 2xl:list-none ${resp_menu_items} ${menuOpen ? 'md:flex  md:z-2' : 'md:hidden'}`} onClick={()=>setMenuOpen(false)}>
+      <ul className={`2xl:flex 2xl:gap-[47px] 2xl:list-none ${resp_menu_items} ${menuOpen ? 'md:flex  md:z-[2]' : 'md:hidden'}`} onClick={()=>setMenuOpen(false)}>
           <li><a className={menu_a_tags} href='#about'>About</a></li>
           <li><a className={menu_a_tags} href='#experience'>Experience</a></li>
           <li><a className={menu_a_tags} href='#projects'>Projects</a></li>
