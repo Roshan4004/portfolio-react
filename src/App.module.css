@@ -1,5 +1,10 @@
-.App{
-    background-color: #c93a1b;
-    width: 100%;
-    height: 100%;
+@tailwind base;
+@tailwind components;
+
+@layer base {
+    .container {
+        @apply max-w-[1535px] xl:max-w-[1279px] lg:max-w-[1023px] md:max-w-[767px] sm:max-w-[639px];
+    }
 }
+
+@tailwind utilities;

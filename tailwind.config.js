@@ -46,7 +46,8 @@ export default {
           'background': 'linear-gradient(0deg, rgba(88, 47, 38, 0.9) 0%, rgba(201, 58, 27, 0.1) 100%)',
         },
       })
-    })
+    }),
+    require('tailwindcss-multi'),
   ],
 }
 
