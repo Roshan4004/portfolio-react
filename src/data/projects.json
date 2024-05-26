@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Travel Blog",
+      "imageSrc": "blog.jpg",
+      "description": "Here, users can write about places travelled!",
+      "skills": ["Django", "Javscript", "HTML/CSS"],
+      "demo": "https://neptravelblog.pythonanywhere.com/",
+      "source": "https://github.com/Roshan4004"
+    },
+    {
+      "title": "Vendor Management",
+      "imageSrc": "vendor.png",
+      "description": "Rest Framework API using which various vendors can be managed with their purchases.",
+      "skills": ["Django", "Rest Framework", "Docker"],
+      "demo": "https://documenter.getpostman.com/view/23812562/2sA3JM71Zc",
+      "source": "https://github.com/Roshan4004/vendor-manager"
+    },
+    {
+      "title": "Todo List App",
+      "imageSrc": "todo.jpg",
+      "description": "Project made to manage your tasks.",
+      "skills": ["Django", "HTML/CSS", "Python"],
+      "demo": "https://roshan4004.pythonanywhere.com/todo/",
+      "source": "https://github.com/Roshan4004/Todo-List-App"
+    }
+  ]
