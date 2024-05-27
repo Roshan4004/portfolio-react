@@ -49,6 +49,9 @@ export default {
         },
         '.bg-my_exp_grad':{
           'background':"linear-gradient(90deg, #FF5E2B 0%, rgba(175,98,74,0) 100%);"
+        },
+        '.bg-my_project_grad':{
+          'background':"linear-gradient(90deg, #C93A1B 0%, #631D0D 100%);"
         }
       })
     }),

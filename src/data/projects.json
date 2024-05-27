@@ -2,7 +2,7 @@
     {
       "title": "Travel Blog",
       "imageSrc": "blog.jpg",
-      "description": "Here, users can write about places travelled!",
+      "description": "Here, users can write about places they travelled!",
       "skills": ["Django", "Javscript", "HTML/CSS"],
       "demo": "https://neptravelblog.pythonanywhere.com/",
       "source": "https://github.com/Roshan4004"
