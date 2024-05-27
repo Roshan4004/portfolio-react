@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <footer id="contacts" className='text-main mt-120px bg-[#a1412b] flex flex-row justify-evenly w-[100vw] py-[58px] px-[10%] gap-[10px] md:flex-col md:gap-[23px] font-["Montserrat"]'>
         <div className='text-[80px] font-extraboldbold space-[2px] md:flex md:flex-col md:items-center'>
-            <h2 className='text-[70px] font-bold space-[4px] md:text-center'>Contact</h2>
+            <h2 className='text-[70px] font-bold space-[4px] md:text-center'>Contacts</h2>
             <p className='text-[35px] font-[10px] space-[4px] md:text-center'>Please don't hesitate to contact me !</p>
         </div>
         <ul className='flex flex-col items-start list-none gap-[26px] md:items-center'>

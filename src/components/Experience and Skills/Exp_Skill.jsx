@@ -50,8 +50,8 @@ const Exp_Skill = () => {
   return (
     <section id="experience" className='2xl:multi-[text-main;mt-[79px];mx-[10%]]'>
         <div className='2xl:multi-[flex;justify-center]'>
-            <h1 className='2xl:multi-[text-center;mr-[25%];text-3xl;font-bold] md:mr-[0%] md:text-4xl'>Skills</h1>
-            <h1 className='2xl:multi-[text-center;ml-[25%];text-3xl;font-bold] md:hidden'>Experience</h1>
+            <h1 className='2xl:multi-[text-center;mr-[25%];text-3xl;font-bold] md:mr-[0%] md:text-4xl uppercase'>Skills</h1>
+            <h1 className='2xl:multi-[text-center;ml-[25%];text-3xl;font-bold] md:hidden uppercase'>Experience</h1>
         </div>
       <div className='2xl:multi-[flex;flex-row;justify-evenly;mt-[14px]] md:multi-[flex-col;items-center;gap-[34px]]'>
         <div className='2xl:multi-[w-[45%];flex;flex-wrap;items-center;gap-[11px]] md:w-[100%] md:flex-row md:justify-center'>

@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <>
       <section className='mt-[76px] mb-[10px] text-main mx-[10%] scroll-smooth' id="projects">
-        <h2 className='text-4xl font-bold tracking-[1.75px] uppercase text-center'>Projects</h2>
+        <h2 className='text-3xl font-bold tracking-[1.75px] uppercase text-center'>Projects</h2>
         <div className='mt-[37px] flex flex-row flex-wrap items-center justify-center gap-[15px] w-[100%]'>{
             projects.map((project,id)=>{
                 return (

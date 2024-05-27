@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <>
     <nav className={`2xl:relative 2xl:flex 2xl:items-center 2xl:justify-between 2xl:pt-[61px] 2xl:z-2 2xl:my-0 2xl:mx-1 2xl:px-5  ${resp_navbar}`}>
-    <a className="2xl:text-4xl 2xl:font-bold 2xl:no-underline 2xl:text-main" href='/'>Portfolio</a>
+    <a className="2xl:text-4xl 2xl:font-bold 2xl:no-underline 2xl:text-main font-['Open_Sans']" href='/'>Portfolio</a>
     <div className={`2xl:flex ${resp_menu}`}>
       {!menuOpen ?(
         
