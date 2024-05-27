@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <div className='p-[15px] text-main mt-5' id="about">
-        <div className='bg-[rgb(134,34,12)] p-[15px] flex flex-col rounded-md mx-9 gap-[8px] shadow-md'>
+        <div className='bg-[rgb(134,34,12)] p-[15px] flex flex-col rounded-md mx-9 gap-[8px] shadow-md md:mx-2 '>
             <h1 className='flex text-3xl font-bold uppercase'>About Me</h1>
             <p className='flex items-center text-[25px] font-["Roboto"]'>I am an experienced web Developer with hands-on experience designing, developing, and
                 implementing web applications using Python and Django framework. I have proven track record

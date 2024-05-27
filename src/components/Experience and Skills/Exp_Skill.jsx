@@ -48,7 +48,7 @@ const Exp_Skill = () => {
         }
       ];
   return (
-    <section id="experience" className='2xl:multi-[text-main;mt-[79px];mx-[10%]]'>
+    <section id="experience" className='2xl:multi-[text-main;mt-[79px];mx-[10%]] md:mx-[4%]'>
         <div className='2xl:multi-[flex;justify-center]'>
             <h1 className='2xl:multi-[text-center;mr-[25%];text-3xl;font-bold] md:mr-[0%] md:text-4xl uppercase'>Skills</h1>
             <h1 className='2xl:multi-[text-center;ml-[25%];text-3xl;font-bold] md:hidden uppercase'>Experience</h1>
