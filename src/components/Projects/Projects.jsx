@@ -6,7 +6,7 @@ const Projects = () => {
     const myarray=[projects[0].skills,projects[1].skills,projects[2].skills]
   return (
     <>
-      <section className='mt-[76px] text-main mx-[10%]'>
+      <section className='mt-[76px] mb-[10px] text-main mx-[10%] scroll-smooth' id="projects">
         <h2 className='text-4xl font-bold tracking-[1.75px] uppercase text-center'>Projects</h2>
         <div className='mt-[37px] flex flex-row flex-wrap items-center justify-center gap-[15px] w-[100%]'>{
             projects.map((project,id)=>{
@@ -22,8 +22,8 @@ const Projects = () => {
 
                         </ul>
                         <div className='justify-around w-[100%] mt-[40px] flex'>
-                            <a className='no-underline text-main text-[30px] font-medium rounded-[100px] bg-[#BF7A53] py-[1px] px-[22px]' href={project.demo}>Demo</a>
-                            <a className='no-underline text-main text-[30px] font-medium rounded-[100px] bg-[#BF7A53] py-[1px] px-[22px]' href={project.source}>Source</a>
+                            <a className='no-underline text-main text-[30px] font-medium rounded-[100px] bg-[#BF7A53] py-[1px] px-[22px]' href={project.demo} target="_blank">Demo</a>
+                            <a className='no-underline text-main text-[30px] font-medium rounded-[100px] bg-[#BF7A53] py-[1px] px-[22px]' href={project.source} target="_blank">Source</a>
                         </div>
                     </div>
                 )

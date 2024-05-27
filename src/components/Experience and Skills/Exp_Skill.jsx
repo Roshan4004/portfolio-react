@@ -62,7 +62,7 @@ const Exp_Skill = () => {
                     {e.myicons.map((e,i)=>{
                         return(
                            <div key={i} className='2xl:multi-[flex;flex-col;items-center;gap-[11px]]'>
-                                <div alt={e.title} className='2xl:multi-[bg-[#A52F15];rounded-[100%];flex;items-center;justify-center;w-[120px];h-[120px]]'>
+                                <div alt={e.title} className='2xl:multi-[bg-[rgb(134,34,12)];rounded-[100%];flex;items-center;justify-center;w-[120px];h-[120px]]'>
                                     <e.name size="3em" color="white" />
                                 </div>
                                 <p className='2xl:multi-[text-[25px];font-bold]'>{e.title}</p>

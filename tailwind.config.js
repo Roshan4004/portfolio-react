@@ -35,7 +35,7 @@ export default {
       'xl': {'max': '1279px'},
       'lg': {'max': '1023px'},
       'md': {'max': '767px'},
-      'sm': {'max': '639px'},
+      'sm': {'max': '500px'},
     },
   },
   plugins: [
@@ -51,7 +51,7 @@ export default {
           'background':"linear-gradient(90deg, #FF5E2B 0%, rgba(175,98,74,0) 100%);"
         },
         '.bg-my_project_grad':{
-          'background':"linear-gradient(90deg, #C93A1B 0%, #631D0D 100%);"
+          'background':"linear-gradient(0deg, #631D0D 0%,#C14428 100%);"
         }
       })
     }),
